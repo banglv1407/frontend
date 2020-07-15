@@ -7,11 +7,14 @@
 
         <ul class="nav navbar-nav flex-row float-right">
           <li class="nav-item">
-            <router-link class="nav-link pr-3" to="/">Sign in</router-link>
+            <router-link class="btn btn-outline-primary" to="/">Sign in</router-link>
           </li>
           <li class="nav-item">
             <router-link class="btn btn-outline-primary" to="/signup">Sign up</router-link>
           </li>
+          <!-- <li class="nav-item">
+            <router-link class="btn btn-outline-primary" to="/forgot-password">forgot password</router-link>
+          </li> -->
         </ul>
       </div>
     </nav>
